@@ -1,0 +1,33 @@
+{
+  "schema": "ricewm.app/v1",
+  "id": "dev.herdr.generated.reminder",
+  "name": "Reminder",
+  "version": "1.0.0",
+  "entry": "app.mjs",
+  "iconName": "selection-check",
+  "window": {
+    "width": 420,
+    "height": 190
+  },
+  "categories": [
+    "Development"
+  ],
+  "permissions": {
+    "services": [
+      "settings.get",
+      "settings.set",
+      "notifications.create",
+      "notifications.update",
+      "notifications.delete",
+      "notifications.list",
+      "calendar.create",
+      "calendar.update",
+      "calendar.delete"
+    ],
+    "bus": {
+      "subscribe": [
+        "dev.herdr.generated.reminder/notifications/action"
+      ]
+    }
+  }
+}

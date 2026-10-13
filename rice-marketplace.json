@@ -1,0 +1,37 @@
+{
+  "schema": "ricewm.recipe-marketplace/v1",
+  "name": "Reminder",
+  "version": "1.0.0",
+  "summary": "A RiceWM app, version 1.0.0.",
+  "license": "MIT",
+  "credits": "",
+  "artifact": {
+    "path": "dev.herdr.generated.reminder.riceapp",
+    "bytes": 4871,
+    "sha256": "8894e98d4f641c162d17e65928fdc74b1cf1299b7b075927ab2abf3c9e02d252"
+  },
+  "media": [
+    {
+      "role": "icon",
+      "path": "media/icon.webp",
+      "alt": "Reminder app icon",
+      "width": 256,
+      "height": 256,
+      "license": "MIT",
+      "credits": "Original RiceWM sharing icon.",
+      "sha256": "f144a3c85f42d9fc42820a9c513ec4cded156cc593b1a6436cac93ff82dc337b",
+      "bytes": 3568
+    },
+    {
+      "role": "screenshot",
+      "path": "media/screenshot-1.webp",
+      "alt": "Reminder — app screenshot",
+      "width": 420,
+      "height": 228,
+      "license": "Depicted assets retain their original licences",
+      "credits": "Screenshot provided by the publisher. Depicted assets retain their original licences.",
+      "sha256": "188f8b90d54edded227af3581e83bd057f7ea7dd2040d3516bb87899daa3a2ef",
+      "bytes": 27696
+    }
+  ]
+}
