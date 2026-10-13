@@ -1,14 +1,14 @@
 {
   "schema": "ricewm.recipe-marketplace/v1",
   "name": "Reminder",
-  "version": "1.0.0",
-  "summary": "A RiceWM app, version 1.0.0.",
+  "version": "1.0.1",
+  "summary": "Reminders with calendar integration and a top-bar launcher.",
   "license": "MIT",
   "credits": "",
   "artifact": {
     "path": "dev.herdr.generated.reminder.riceapp",
-    "bytes": 4871,
-    "sha256": "8894e98d4f641c162d17e65928fdc74b1cf1299b7b075927ab2abf3c9e02d252"
+    "bytes": 10269,
+    "sha256": "09c226c932d9b6c8fd14727f1c97d17176360ad0d9cb305acc5f434614557d3a"
   },
   "media": [
     {
@@ -25,7 +25,7 @@
     {
       "role": "screenshot",
       "path": "media/screenshot-1.webp",
-      "alt": "Reminder — app screenshot",
+      "alt": "Reminder \u2014 app screenshot",
       "width": 420,
       "height": 228,
       "license": "Depicted assets retain their original licences",

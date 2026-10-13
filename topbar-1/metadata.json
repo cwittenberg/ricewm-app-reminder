@@ -1,0 +1,10 @@
+{
+  "uuid": "reminder-launcher@local",
+  "name": "Reminder",
+  "description": "Reminder",
+  "shell-version": [
+    "50"
+  ],
+  "version": 1,
+  "version-name": "1.0.1"
+}

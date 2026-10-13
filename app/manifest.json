@@ -2,7 +2,7 @@
   "schema": "ricewm.app/v1",
   "id": "dev.herdr.generated.reminder",
   "name": "Reminder",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "entry": "app.mjs",
   "iconName": "selection-check",
   "window": {
@@ -10,7 +10,7 @@
     "height": 190
   },
   "categories": [
-    "Development"
+    "Office"
   ],
   "permissions": {
     "services": [
@@ -29,5 +29,8 @@
         "dev.herdr.generated.reminder/notifications/action"
       ]
     }
+  },
+  "sdk": {
+    "version": "1.0.0"
   }
 }

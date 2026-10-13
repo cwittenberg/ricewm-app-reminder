@@ -1,0 +1,13 @@
+{
+  "schema": "ricewm.bundle-components/v1",
+  "components": [
+    {
+      "id": "reminder-launcher@local",
+      "kind": "gnome-extension",
+      "root": "",
+      "profile": "gnome-50",
+      "required": true,
+      "permissions": []
+    }
+  ]
+}

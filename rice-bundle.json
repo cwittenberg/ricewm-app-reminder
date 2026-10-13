@@ -1,0 +1,31 @@
+{
+  "schema": "ricewm.bundle-components/v1",
+  "components": [
+    {
+      "id": "dev.herdr.generated.reminder",
+      "kind": "app",
+      "root": "app",
+      "profile": "rice-app-v1",
+      "required": true,
+      "permissions": [
+        "settings.get",
+        "settings.set",
+        "notifications.create",
+        "notifications.update",
+        "notifications.delete",
+        "notifications.list",
+        "calendar.create",
+        "calendar.update",
+        "calendar.delete"
+      ]
+    },
+    {
+      "id": "reminder-launcher@local",
+      "kind": "gnome-extension",
+      "root": "topbar-1",
+      "profile": "gnome-50",
+      "required": true,
+      "permissions": []
+    }
+  ]
+}
